@@ -175,7 +175,7 @@
     margin-left: 280px;
     padding: 50px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(/images/watch.png);
-    /* background-image: url(/images/watch.png); */
+    /* background-image: url(../images/watch.png); */
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 250px;
