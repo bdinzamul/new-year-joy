@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    background: url(/images/banner/banner1.png);
+    background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,6 +64,7 @@
     margin-top: 250px;
     border-radius: 527.929px;
     background: rgba(241, 91, 34, 0.20);
+
 }
 
 .failures-text-box {
