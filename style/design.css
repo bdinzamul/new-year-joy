@@ -67,7 +67,6 @@
 .failures-text-box {
     margin-top: 120px;
     padding-left: 50px;
-    margin-right: 322px;
     padding: 70px;
     place-items: center;
 }
@@ -98,10 +97,185 @@
 }
 
 .tik-text {
-    
+
     color: var(--Dark-02, #444343);
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
     text-align: left;
+}
+
+/* my plan */
+.my-plan {
+    text-align: center;
+}
+
+.my-plan-tittle {
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.plan-box {
+    display: flex;
+    text-align: center;
+    place-items: center;
+    padding-left: 230px;
+
+}
+
+.plan-icon {
+    width: 92.958px;
+    height: 92.958px;
+    flex-shrink: 0;
+}
+
+.plan-tittle {
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plan-sub-tittle {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.plan-box-each {
+    padding: 20px;
+
+}
+
+/* call now section */
+.call-now {
+    text-align: center;
+
+
+}
+
+.call-now-box {
+    text-align: left;
+    margin-left: 280px;
+    padding: 50px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(/images/watch.png);
+    /* background-image: url(/images/watch.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 250px;
+    border-radius: 8px;
+
+
+}
+
+.call-now-tittle {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-call-now {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* footer */
+.footer {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 190px;
+    padding-top: 40px;
+    padding-right: 150px;
+    background: var(--Dark-01, #151414);
+}
+
+.footer-section1 {
+    padding-top: 30px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+
+}
+
+.footer-tittle-1 {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-paragraph {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-section2 {
+    padding-top: 50px;
+    padding-right: 110px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+
+.footer-tittle-2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.email {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #151414;
+    border: 1px solid #FFF;
+    color: white;
+}
+
+.footer-button {
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    margin-top: 16px;
 }
